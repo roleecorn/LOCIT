@@ -1,5 +1,7 @@
 # LocIT
 
+## This repository is a practice work clone from https://github.com/Vincent-Vercruyssen/LocIT
+
 This repository contains the online supplement of the 2020 AAAI paper **Transfer Learning for Anomaly Detection through Localized and Unsupervised Instance Selection**. It contains: *the appendix*, *the code for the experiments*, and *the benchmark data*.
 
 The paper authors are from the [DTAI group](https://dtai.cs.kuleuven.be/) of the [KU Leuven](https://kuleuven.be/):
