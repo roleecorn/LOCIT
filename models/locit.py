@@ -8,7 +8,7 @@ Full LocIT (with SSkNNO) algorithm.
 """
 
 import numpy as np
-
+import sys
 from sklearn.utils.validation import check_X_y
 from sklearn.preprocessing import StandardScaler
 from sklearn.neighbors import BallTree
@@ -20,11 +20,13 @@ from sklearn.svm import SVC
 # LocIT + SSkNNO
 # ----------------------------------------------------------------------------
 
-def apply_LocIT(Xs, Xt, ys=None, yt=None,
-        psi=10, train_selection='random', scaling=True,
-        k=10, supervision='loose'):
-    """ Apply LocIT + SSkNNO.
+def apply_LocIT(Xs: np.ndarray, Xt: np.ndarray, ys: np.ndarray = None, yt: np.ndarray = None,
+                psi=10, train_selection='random', scaling=True,
+                k=10, supervision='loose'):
 
+    # sys.exit()
+    """ Apply LocIT + SSkNNO.
+    
     Parameters
     ----------
     Xs : np.array of shape (n_samples, n_features), optional (default=None)
@@ -35,51 +37,58 @@ def apply_LocIT(Xs, Xt, ys=None, yt=None,
         The ground truth of the source instances.
     yt : np.array of shape (n_samples,), optional (default=None)
         The ground truth of the target instances.
-    
+
     psi : int (default=10)
         Neighborhood size.
-    
+
     train_selection : str (default='random')
         How to select the negative training instances:
         'farthest'  --> select the farthest instance
         'random'    --> random instance selected
         'edge'      --> select the (psi+1)'th instance
-    
+
     scaling : bool (default=True)
         Scale the source and target domain before transfer.
 
     k : int (default=10)
         Number of nearest neighbors.
-    
+
     supervision : str (default=loose)
         How to compute the supervised score component.
         'loose'     --> use all labeled instances in the set of nearest neighbors
         'strict'    --> use only instances that also count the instance among their neighbors
-    
+
     Returns
     -------
     yt_scores : np.array of shape (n_samples,)
         Anomaly scores for the target instances.
     """
-
     # input
     if ys is None:
         ys = np.zeros(Xs.shape[0])
     Xs, ys = check_X_y(Xs, ys)
+    # check_X_y 檢查 X 和 y 的長度是否一致
     if yt is None:
         yt = np.zeros(Xt.shape[0])
     Xt, yt = check_X_y(Xt, yt)
 
     # scaling
     if scaling:
+        # 在傳輸之前縮放源域和目標域。
         scaler = StandardScaler()
+        # scaler 通過去除均值和縮放到單位方差來標準化特徵。
         Xs = scaler.fit_transform(Xs)
+        # fit_transform 適合數據，然後轉換它
+        # 使用可選參數 fit_params 將轉換器擬合到 X 和 y 並返回 X 的轉換版本
         scaler = StandardScaler()
         Xt = scaler.fit_transform(Xt)
 
     # transfer
     ixt = _instance_transfer(Xs, Xt, ys, psi, train_selection)
+    # 實例轉移
     Xs_trans = Xs[ixt, :]
+
+    # sys.exit()
     ys_trans = ys[ixt]
 
     # combine
@@ -89,12 +98,13 @@ def apply_LocIT(Xs, Xt, ys=None, yt=None,
 
     # anomaly detection
     if ys.any():
-        source_contamination = len(np.where(ys > 0)[0]) / len(np.where(ys != 0)[0])
+        source_contamination = len(
+            np.where(ys > 0)[0]) / len(np.where(ys != 0)[0])
     else:
         source_contamination = 0.1
 
     yt_scores = _ssknno_anomaly_detection(X_combo, y_combo, Xt,
-        source_contamination, k, supervision)
+                                          source_contamination, k, supervision)
 
     return yt_scores
 
@@ -124,8 +134,8 @@ def _ssknno_anomaly_detection(X, y, Xt, c, k, supervision):
 
     # compute prior
     prior = _squashing_function(D[:, -1].flatten(), gamma)
-    
-    if not(y.any()):
+
+    if not (y.any()):
         return prior
 
     # compute posterior
@@ -148,7 +158,8 @@ def _ssknno_anomaly_detection(X, y, Xt, c, k, supervision):
                 Ss = np.sum(w[ixa]) / np.sum(w[ixl])
 
             # weight of the supervised component
-            # --> the number of labeled instances that also contain this instance as their neighbor
+            # --> the number of labeled instances that also contain
+            # this instance as their neighbor
             reverse_nn = np.where(ndists <= radii[nixs])[0]
             reverse_nn = np.intersect1d(ixl, reverse_nn)
             Ws = len(reverse_nn) / nn
@@ -172,7 +183,7 @@ def _ssknno_anomaly_detection(X, y, Xt, c, k, supervision):
     return posterior
 
 
-def _instance_transfer(Xs, Xt, ys, psi, train_selection):
+def _instance_transfer(Xs: np.ndarray, Xt: np.ndarray, ys: np.ndarray, psi, train_selection):
     """ Do the instance transfer. """
 
     tol = 1e-10
@@ -213,7 +224,7 @@ def _instance_transfer(Xs, Xt, ys, psi, train_selection):
             r_ix = Ixs[i, -1]
         else:
             raise ValueError(train_selection,
-                'not valid!')
+                             'not valid!')
         NN_r = Xt[Ixs[r_ix, 1:psi], :]
         mu_r = np.mean(NN_r, axis=0)
         C_r = np.cov(NN_r.T)
@@ -270,20 +281,20 @@ def _optimal_transfer_classifier(train, labels):
     # tuning parameters
     tuned_parameters = [{'C': [0.01, 0.1, 0.5, 1, 10, 100],
                         'gamma': [0.01, 0.1, 0.5, 1, 10, 100],
-                        'kernel': ['rbf']},
+                         'kernel': ['rbf']},
                         {'kernel': ['linear'],
                         'C': [0.01, 0.1, 0.5, 1, 10, 100]}]
-    
+
     # grid search
     svc = SVC(probability=True)
     clf = GridSearchCV(svc, tuned_parameters, cv=3, refit=True)
     clf.fit(train, labels)
-    
+
     # return classifier
     return clf
 
 
 def _squashing_function(x, p):
     """ Compute the value of x under squashing function with parameter p. """
-    
+
     return 1.0 - np.exp(np.log(0.5) * np.power(x / p, 2))

@@ -31,7 +31,7 @@ def apply_kNNO(Xs, Xt, ys=None, yt=None, scaling=True, k=10, contamination=0.1):
         The ground truth of the source instances.
     yt : np.array of shape (n_samples,), optional (default=None)
         The ground truth of the target instances.
-    
+
     k : int (default=10)
         Number of nearest neighbors.
 
@@ -59,7 +59,7 @@ def apply_kNNO(Xs, Xt, ys=None, yt=None, scaling=True, k=10, contamination=0.1):
 
     # no transfer!
 
-    # fit 
+    # fit
     tree = BallTree(Xt, leaf_size=16, metric='euclidean')
     D, _ = tree.query(Xt, k=k+1)
 
@@ -68,11 +68,11 @@ def apply_kNNO(Xs, Xt, ys=None, yt=None, scaling=True, k=10, contamination=0.1):
     gamma = np.percentile(
         outlier_scores, int(100 * (1.0 - contamination))) + 1e-10
     yt_scores = _squashing_function(outlier_scores, gamma)
-    
+
     return yt_scores
 
 
 def _squashing_function(x, p):
     """ Compute the value of x under squashing function with parameter p. """
-    
+
     return 1.0 - np.exp(np.log(0.5) * np.power(x / p, 2))

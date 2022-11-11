@@ -7,21 +7,27 @@ Run experiments.
 :license: Apache License, Version 2.0, see LICENSE for details.
 """
 
-import sys, os, time, argparse
-import numpy as np
-import pandas as pd
-
+from typing import Tuple
+from models.iforest import apply_iForest
+from models.knno import apply_kNNO
+from models.coral import apply_CORAL
+from models.transferall import apply_transferall
+from models.locit import apply_LocIT
 from sklearn.metrics import roc_auc_score
+import pandas as pd
+import numpy as np
+import argparse
+import os
+import sys
+import time
+t1 = time.time()
+
 
 # transfer models
-from models.locit import apply_LocIT
-from models.transferall import apply_transferall
-from models.coral import apply_CORAL
 
 # anomaly detection
-from models.knno import apply_kNNO
-from models.iforest import apply_iForest
-
+t2 = time.time()
+print(t2-t1)
 # for the remaining baselines, see implementations:
 #
 # HBOS --> https://github.com/Kanatoko/HBOS-python/blob/master/hbos.py
@@ -38,12 +44,17 @@ from models.iforest import apply_iForest
 # run experiment
 # ----------------------------------------------------------------------------
 def main():
+    st = time.time()
     parser = argparse.ArgumentParser(
         description='Run transfer learning - anomaly detection experiment')
-    parser.add_argument('-d', '--dataset', type=str, default='', help='dataset = folder in data/ directory')
-    parser.add_argument('-m', '--method', type=str, default='', help='method to use')
+    parser.add_argument('-d', '--dataset', type=str, default='shuttle',
+                        help='dataset = folder in data/ directory default \'shuttle\'')
+    parser.add_argument('-m', '--method', type=str,
+                        default='locit', help='method to use,default \'locit\'')
     args, unknownargs = parser.parse_known_args()
-    
+    t3 = time.time()
+    print(t3-t2)
+
     # difficulty dictionary
     transfer_difficulty = {
         'n1_a1': 1,
@@ -65,7 +76,7 @@ def main():
     dataset_name = ''
     for tgt_name, target_data in target_sets.items():
         dataset_name = tgt_name.split('_v')[0]
-
+        print(dataset_name)
         # target data
         Xt = target_data.iloc[:, :-1].values
         yt = target_data.iloc[:, -1].values
@@ -75,6 +86,7 @@ def main():
         # transfer from each source domain
         for src_name, source_data in source_sets.items():
             # source data
+            print(src_name, tgt_name)
             Xs = source_data.iloc[:, :-1].values
             ys = source_data.iloc[:, -1].values
             ns, _ = Xs.shape
@@ -83,28 +95,29 @@ def main():
             # TRANSFER METHODS
             if args.method.lower() == 'locit':
                 target_scores = apply_LocIT(Xs, Xt.copy(), ys, yt.copy(),
-                    k=10, psi=20, scaling=False, supervision='loose',
-                    train_selection='farthest')
+                                            k=10, psi=20, scaling=False, supervision='loose',
+                                            train_selection='farthest')
 
             elif args.method.lower() == 'transferall':
                 target_scores = apply_transferall(Xs, Xt.copy(), ys, yt.copy(),
-                    k=10, scaling=True)
+                                                  k=10, scaling=True)
 
             elif args.method.lower() == 'coral':
                 target_scores = apply_CORAL(Xs, Xt.copy(), ys, yt.copy(),
-                    scaling=True)
+                                            scaling=True)
 
             # UNSUPERVISED ANOMALY DETECTION METHODS
             elif args.method.lower() == 'knno':
-                target_scores = apply_kNNO(Xs, Xt.copy(), ys, yt.copy(), scaling=False)
+                target_scores = apply_kNNO(
+                    Xs, Xt.copy(), ys, yt.copy(), scaling=False)
 
             elif args.method.lower() == 'iforest':
                 target_scores = apply_iForest(Xs, Xt.copy(), ys, yt.copy(),
-                    n_estimators=100, contamination=0.1)
+                                              n_estimators=100, contamination=0.1)
 
             else:
                 raise ValueError(args.method,
-                    'is not an implemented/accepted method')
+                                 'is not an implemented/accepted method')
 
             # compute AUC
             auc = roc_auc_score(y_true=yt, y_score=target_scores)
@@ -121,40 +134,49 @@ def main():
     print('\n\nAUC results on {}:'.format(dataset_name.upper()))
     print('----------------'+'-'*len(dataset_name))
     for k, v in auc_results.items():
-        print('  Difficulty level {}: \t{}'.format(transfer_difficulty[k], np.mean(v)))
+        print('  Difficulty level {}: \t{}'.format(
+            transfer_difficulty[k], np.mean(v)))
+    ed = time.time()
+    print(ed-st)
     print('\nDone!\n')
 
 
-def _load_and_preprocess_data(data_path):
+def _load_and_preprocess_data(data_path) -> Tuple[dict[str, pd.DataFrame], dict[str, pd.DataFrame], ]:
     """ Load and preprocess the data. """
-
+    # pd.DataFrame
+    # ->dict{str:np.ndarray}
     src_path = os.path.join(data_path, 'source')
     tgt_path = os.path.join(data_path, 'target')
 
     # source files
-    source_files = [f for f in os.listdir(src_path) if os.path.isfile(os.path.join(src_path, f))]
-    source_files = [os.path.join(src_path, f) for f in source_files if '.csv' in f]
-
+    source_files = [f for f in os.listdir(
+        src_path) if os.path.isfile(os.path.join(src_path, f))]
+    source_files = [os.path.join(src_path, f)
+                    for f in source_files if '.csv' in f]
+    # 找到所有路徑內尾部有.csv的檔案
     # target files
-    target_files = [f for f in os.listdir(tgt_path) if os.path.isfile(os.path.join(tgt_path, f))]
-    target_files = [os.path.join(tgt_path, f) for f in target_files if '.csv' in f]
+    target_files = [f for f in os.listdir(
+        tgt_path) if os.path.isfile(os.path.join(tgt_path, f))]
+    target_files = [os.path.join(tgt_path, f)
+                    for f in target_files if '.csv' in f]
 
     # load the data
     source_sets = dict()
     for sf in source_files:
-        data = pd.read_csv(sf, sep=',', index_col=0).sample(frac=1).reset_index(drop=True)
+        data = pd.read_csv(sf, sep=',', index_col=0).sample(
+            frac=1).reset_index(drop=True)
         file_name = os.path.split(sf)[1].split('.csv')[0]
         source_sets[file_name] = data
 
     target_sets = dict()
     for sf in target_files:
-        data = pd.read_csv(sf, sep=',', index_col=0).sample(frac=1).reset_index(drop=True)
+        data = pd.read_csv(sf, sep=',', index_col=0).sample(
+            frac=1).reset_index(drop=True)
         file_name = os.path.split(sf)[1].split('.csv')[0]
         target_sets[file_name] = data
-
+    print(type)
     return source_sets, target_sets
 
 
 if __name__ == '__main__':
     main()
-    

@@ -1,0 +1,527 @@
+0.0
+0.0006251335144042969
+The experiments are executed on the `shuttle` data
+<class 'type'>
+shuttle
+shuttle_source_n1_a1_v4 shuttle_v9
+Transfer:   shuttle_source_n1_a1_v4 	-->	 shuttle_v9 	AUC = 0.92852
+shuttle_source_n1_a1_v2 shuttle_v9
+Transfer:   shuttle_source_n1_a1_v2 	-->	 shuttle_v9 	AUC = 0.93252
+shuttle_source_n1_a1_v3 shuttle_v9
+Transfer:   shuttle_source_n1_a1_v3 	-->	 shuttle_v9 	AUC = 0.92638
+shuttle_source_n1_a1_v1 shuttle_v9
+Transfer:   shuttle_source_n1_a1_v1 	-->	 shuttle_v9 	AUC = 0.92552
+shuttle_source_n1_a1_v0 shuttle_v9
+Transfer:   shuttle_source_n1_a1_v0 	-->	 shuttle_v9 	AUC = 0.9317
+shuttle_source_n2_a2_v2 shuttle_v9
+Transfer:   shuttle_source_n2_a2_v2 	-->	 shuttle_v9 	AUC = 0.80704
+shuttle_source_n2_a2_v3 shuttle_v9
+Transfer:   shuttle_source_n2_a2_v3 	-->	 shuttle_v9 	AUC = 0.80704
+shuttle_source_n2_a2_v1 shuttle_v9
+Transfer:   shuttle_source_n2_a2_v1 	-->	 shuttle_v9 	AUC = 0.80704
+shuttle_source_n2_a2_v0 shuttle_v9
+Transfer:   shuttle_source_n2_a2_v0 	-->	 shuttle_v9 	AUC = 0.80704
+shuttle_source_n2_a2_v4 shuttle_v9
+Transfer:   shuttle_source_n2_a2_v4 	-->	 shuttle_v9 	AUC = 0.80704
+shuttle_source_n1_a2_v3 shuttle_v9
+Transfer:   shuttle_source_n1_a2_v3 	-->	 shuttle_v9 	AUC = 0.9201
+shuttle_source_n1_a2_v2 shuttle_v9
+Transfer:   shuttle_source_n1_a2_v2 	-->	 shuttle_v9 	AUC = 0.9222600000000001
+shuttle_source_n1_a2_v0 shuttle_v9
+Transfer:   shuttle_source_n1_a2_v0 	-->	 shuttle_v9 	AUC = 0.92672
+shuttle_source_n1_a2_v1 shuttle_v9
+Transfer:   shuttle_source_n1_a2_v1 	-->	 shuttle_v9 	AUC = 0.9148799999999999
+shuttle_source_n1_a2_v4 shuttle_v9
+Transfer:   shuttle_source_n1_a2_v4 	-->	 shuttle_v9 	AUC = 0.92218
+shuttle_source_n12_a12_v4 shuttle_v9
+Transfer:   shuttle_source_n12_a12_v4 	-->	 shuttle_v9 	AUC = 0.90672
+shuttle_source_n2_a1_v4 shuttle_v9
+Transfer:   shuttle_source_n2_a1_v4 	-->	 shuttle_v9 	AUC = 0.84538
+shuttle_source_n2_a1_v3 shuttle_v9
+Transfer:   shuttle_source_n2_a1_v3 	-->	 shuttle_v9 	AUC = 0.82648
+shuttle_source_n12_a12_v2 shuttle_v9
+Transfer:   shuttle_source_n12_a12_v2 	-->	 shuttle_v9 	AUC = 0.8999999999999999
+shuttle_source_n12_a12_v3 shuttle_v9
+Transfer:   shuttle_source_n12_a12_v3 	-->	 shuttle_v9 	AUC = 0.89576
+shuttle_source_n2_a1_v2 shuttle_v9
+Transfer:   shuttle_source_n2_a1_v2 	-->	 shuttle_v9 	AUC = 0.8538999999999999
+shuttle_source_n2_a1_v0 shuttle_v9
+Transfer:   shuttle_source_n2_a1_v0 	-->	 shuttle_v9 	AUC = 0.82912
+shuttle_source_n12_a12_v1 shuttle_v9
+Transfer:   shuttle_source_n12_a12_v1 	-->	 shuttle_v9 	AUC = 0.8941199999999999
+shuttle_source_n12_a12_v0 shuttle_v9
+Transfer:   shuttle_source_n12_a12_v0 	-->	 shuttle_v9 	AUC = 0.90336
+shuttle_source_n2_a1_v1 shuttle_v9
+Transfer:   shuttle_source_n2_a1_v1 	-->	 shuttle_v9 	AUC = 0.83428
+shuttle
+shuttle_source_n1_a1_v4 shuttle_v8
+Transfer:   shuttle_source_n1_a1_v4 	-->	 shuttle_v8 	AUC = 0.90822
+shuttle_source_n1_a1_v2 shuttle_v8
+Transfer:   shuttle_source_n1_a1_v2 	-->	 shuttle_v8 	AUC = 0.9390000000000001
+shuttle_source_n1_a1_v3 shuttle_v8
+Transfer:   shuttle_source_n1_a1_v3 	-->	 shuttle_v8 	AUC = 0.92358
+shuttle_source_n1_a1_v1 shuttle_v8
+Transfer:   shuttle_source_n1_a1_v1 	-->	 shuttle_v8 	AUC = 0.9275800000000001
+shuttle_source_n1_a1_v0 shuttle_v8
+Transfer:   shuttle_source_n1_a1_v0 	-->	 shuttle_v8 	AUC = 0.9347799999999999
+shuttle_source_n2_a2_v2 shuttle_v8
+Transfer:   shuttle_source_n2_a2_v2 	-->	 shuttle_v8 	AUC = 0.7701
+shuttle_source_n2_a2_v3 shuttle_v8
+Transfer:   shuttle_source_n2_a2_v3 	-->	 shuttle_v8 	AUC = 0.7701
+shuttle_source_n2_a2_v1 shuttle_v8
+Transfer:   shuttle_source_n2_a2_v1 	-->	 shuttle_v8 	AUC = 0.7701
+shuttle_source_n2_a2_v0 shuttle_v8
+Transfer:   shuttle_source_n2_a2_v0 	-->	 shuttle_v8 	AUC = 0.77006
+shuttle_source_n2_a2_v4 shuttle_v8
+Transfer:   shuttle_source_n2_a2_v4 	-->	 shuttle_v8 	AUC = 0.7701
+shuttle_source_n1_a2_v3 shuttle_v8
+Transfer:   shuttle_source_n1_a2_v3 	-->	 shuttle_v8 	AUC = 0.91098
+shuttle_source_n1_a2_v2 shuttle_v8
+Transfer:   shuttle_source_n1_a2_v2 	-->	 shuttle_v8 	AUC = 0.91338
+shuttle_source_n1_a2_v0 shuttle_v8
+Transfer:   shuttle_source_n1_a2_v0 	-->	 shuttle_v8 	AUC = 0.9099
+shuttle_source_n1_a2_v1 shuttle_v8
+Transfer:   shuttle_source_n1_a2_v1 	-->	 shuttle_v8 	AUC = 0.90842
+shuttle_source_n1_a2_v4 shuttle_v8
+Transfer:   shuttle_source_n1_a2_v4 	-->	 shuttle_v8 	AUC = 0.91272
+shuttle_source_n12_a12_v4 shuttle_v8
+Transfer:   shuttle_source_n12_a12_v4 	-->	 shuttle_v8 	AUC = 0.90708
+shuttle_source_n2_a1_v4 shuttle_v8
+Transfer:   shuttle_source_n2_a1_v4 	-->	 shuttle_v8 	AUC = 0.79724
+shuttle_source_n2_a1_v3 shuttle_v8
+Transfer:   shuttle_source_n2_a1_v3 	-->	 shuttle_v8 	AUC = 0.8457399999999999
+shuttle_source_n12_a12_v2 shuttle_v8
+Transfer:   shuttle_source_n12_a12_v2 	-->	 shuttle_v8 	AUC = 0.87938
+shuttle_source_n12_a12_v3 shuttle_v8
+Transfer:   shuttle_source_n12_a12_v3 	-->	 shuttle_v8 	AUC = 0.87574
+shuttle_source_n2_a1_v2 shuttle_v8
+Transfer:   shuttle_source_n2_a1_v2 	-->	 shuttle_v8 	AUC = 0.8381799999999999
+shuttle_source_n2_a1_v0 shuttle_v8
+Transfer:   shuttle_source_n2_a1_v0 	-->	 shuttle_v8 	AUC = 0.82068
+shuttle_source_n12_a12_v1 shuttle_v8
+Transfer:   shuttle_source_n12_a12_v1 	-->	 shuttle_v8 	AUC = 0.89484
+shuttle_source_n12_a12_v0 shuttle_v8
+Transfer:   shuttle_source_n12_a12_v0 	-->	 shuttle_v8 	AUC = 0.8756200000000001
+shuttle_source_n2_a1_v1 shuttle_v8
+Transfer:   shuttle_source_n2_a1_v1 	-->	 shuttle_v8 	AUC = 0.79606
+shuttle
+shuttle_source_n1_a1_v4 shuttle_v3
+Transfer:   shuttle_source_n1_a1_v4 	-->	 shuttle_v3 	AUC = 0.9042800000000001
+shuttle_source_n1_a1_v2 shuttle_v3
+Transfer:   shuttle_source_n1_a1_v2 	-->	 shuttle_v3 	AUC = 0.9353400000000001
+shuttle_source_n1_a1_v3 shuttle_v3
+Transfer:   shuttle_source_n1_a1_v3 	-->	 shuttle_v3 	AUC = 0.92222
+shuttle_source_n1_a1_v1 shuttle_v3
+Transfer:   shuttle_source_n1_a1_v1 	-->	 shuttle_v3 	AUC = 0.9236800000000001
+shuttle_source_n1_a1_v0 shuttle_v3
+Transfer:   shuttle_source_n1_a1_v0 	-->	 shuttle_v3 	AUC = 0.9256
+shuttle_source_n2_a2_v2 shuttle_v3
+Transfer:   shuttle_source_n2_a2_v2 	-->	 shuttle_v3 	AUC = 0.7353
+shuttle_source_n2_a2_v3 shuttle_v3
+Transfer:   shuttle_source_n2_a2_v3 	-->	 shuttle_v3 	AUC = 0.7353
+shuttle_source_n2_a2_v1 shuttle_v3
+Transfer:   shuttle_source_n2_a2_v1 	-->	 shuttle_v3 	AUC = 0.7353
+shuttle_source_n2_a2_v0 shuttle_v3
+Transfer:   shuttle_source_n2_a2_v0 	-->	 shuttle_v3 	AUC = 0.7353
+shuttle_source_n2_a2_v4 shuttle_v3
+Transfer:   shuttle_source_n2_a2_v4 	-->	 shuttle_v3 	AUC = 0.7353
+shuttle_source_n1_a2_v3 shuttle_v3
+Transfer:   shuttle_source_n1_a2_v3 	-->	 shuttle_v3 	AUC = 0.8935
+shuttle_source_n1_a2_v2 shuttle_v3
+Transfer:   shuttle_source_n1_a2_v2 	-->	 shuttle_v3 	AUC = 0.8990400000000001
+shuttle_source_n1_a2_v0 shuttle_v3
+Transfer:   shuttle_source_n1_a2_v0 	-->	 shuttle_v3 	AUC = 0.89544
+shuttle_source_n1_a2_v1 shuttle_v3
+Transfer:   shuttle_source_n1_a2_v1 	-->	 shuttle_v3 	AUC = 0.8934000000000001
+shuttle_source_n1_a2_v4 shuttle_v3
+Transfer:   shuttle_source_n1_a2_v4 	-->	 shuttle_v3 	AUC = 0.89548
+shuttle_source_n12_a12_v4 shuttle_v3
+Transfer:   shuttle_source_n12_a12_v4 	-->	 shuttle_v3 	AUC = 0.9018400000000001
+shuttle_source_n2_a1_v4 shuttle_v3
+Transfer:   shuttle_source_n2_a1_v4 	-->	 shuttle_v3 	AUC = 0.76576
+shuttle_source_n2_a1_v3 shuttle_v3
+Transfer:   shuttle_source_n2_a1_v3 	-->	 shuttle_v3 	AUC = 0.7708
+shuttle_source_n12_a12_v2 shuttle_v3
+Transfer:   shuttle_source_n12_a12_v2 	-->	 shuttle_v3 	AUC = 0.8671199999999999
+shuttle_source_n12_a12_v3 shuttle_v3
+Transfer:   shuttle_source_n12_a12_v3 	-->	 shuttle_v3 	AUC = 0.8578600000000001
+shuttle_source_n2_a1_v2 shuttle_v3
+Transfer:   shuttle_source_n2_a1_v2 	-->	 shuttle_v3 	AUC = 0.7791400000000002
+shuttle_source_n2_a1_v0 shuttle_v3
+Transfer:   shuttle_source_n2_a1_v0 	-->	 shuttle_v3 	AUC = 0.7725000000000001
+shuttle_source_n12_a12_v1 shuttle_v3
+Transfer:   shuttle_source_n12_a12_v1 	-->	 shuttle_v3 	AUC = 0.88368
+shuttle_source_n12_a12_v0 shuttle_v3
+Transfer:   shuttle_source_n12_a12_v0 	-->	 shuttle_v3 	AUC = 0.86412
+shuttle_source_n2_a1_v1 shuttle_v3
+Transfer:   shuttle_source_n2_a1_v1 	-->	 shuttle_v3 	AUC = 0.77156
+shuttle
+shuttle_source_n1_a1_v4 shuttle_v2
+Transfer:   shuttle_source_n1_a1_v4 	-->	 shuttle_v2 	AUC = 0.9311
+shuttle_source_n1_a1_v2 shuttle_v2
+Transfer:   shuttle_source_n1_a1_v2 	-->	 shuttle_v2 	AUC = 0.94974
+shuttle_source_n1_a1_v3 shuttle_v2
+Transfer:   shuttle_source_n1_a1_v3 	-->	 shuttle_v2 	AUC = 0.9324
+shuttle_source_n1_a1_v1 shuttle_v2
+Transfer:   shuttle_source_n1_a1_v1 	-->	 shuttle_v2 	AUC = 0.93622
+shuttle_source_n1_a1_v0 shuttle_v2
+Transfer:   shuttle_source_n1_a1_v0 	-->	 shuttle_v2 	AUC = 0.94126
+shuttle_source_n2_a2_v2 shuttle_v2
+Transfer:   shuttle_source_n2_a2_v2 	-->	 shuttle_v2 	AUC = 0.7902199999999999
+shuttle_source_n2_a2_v3 shuttle_v2
+Transfer:   shuttle_source_n2_a2_v3 	-->	 shuttle_v2 	AUC = 0.7902199999999999
+shuttle_source_n2_a2_v1 shuttle_v2
+Transfer:   shuttle_source_n2_a2_v1 	-->	 shuttle_v2 	AUC = 0.7902199999999999
+shuttle_source_n2_a2_v0 shuttle_v2
+Transfer:   shuttle_source_n2_a2_v0 	-->	 shuttle_v2 	AUC = 0.7902199999999999
+shuttle_source_n2_a2_v4 shuttle_v2
+Transfer:   shuttle_source_n2_a2_v4 	-->	 shuttle_v2 	AUC = 0.79018
+shuttle_source_n1_a2_v3 shuttle_v2
+Transfer:   shuttle_source_n1_a2_v3 	-->	 shuttle_v2 	AUC = 0.91736
+shuttle_source_n1_a2_v2 shuttle_v2
+Transfer:   shuttle_source_n1_a2_v2 	-->	 shuttle_v2 	AUC = 0.9218599999999999
+shuttle_source_n1_a2_v0 shuttle_v2
+Transfer:   shuttle_source_n1_a2_v0 	-->	 shuttle_v2 	AUC = 0.93028
+shuttle_source_n1_a2_v1 shuttle_v2
+Transfer:   shuttle_source_n1_a2_v1 	-->	 shuttle_v2 	AUC = 0.92078
+shuttle_source_n1_a2_v4 shuttle_v2
+Transfer:   shuttle_source_n1_a2_v4 	-->	 shuttle_v2 	AUC = 0.9262999999999999
+shuttle_source_n12_a12_v4 shuttle_v2
+Transfer:   shuttle_source_n12_a12_v4 	-->	 shuttle_v2 	AUC = 0.92232
+shuttle_source_n2_a1_v4 shuttle_v2
+Transfer:   shuttle_source_n2_a1_v4 	-->	 shuttle_v2 	AUC = 0.83114
+shuttle_source_n2_a1_v3 shuttle_v2
+Transfer:   shuttle_source_n2_a1_v3 	-->	 shuttle_v2 	AUC = 0.8389599999999999
+shuttle_source_n12_a12_v2 shuttle_v2
+Transfer:   shuttle_source_n12_a12_v2 	-->	 shuttle_v2 	AUC = 0.8948400000000001
+shuttle_source_n12_a12_v3 shuttle_v2
+Transfer:   shuttle_source_n12_a12_v3 	-->	 shuttle_v2 	AUC = 0.8904200000000001
+shuttle_source_n2_a1_v2 shuttle_v2
+Transfer:   shuttle_source_n2_a1_v2 	-->	 shuttle_v2 	AUC = 0.84254
+shuttle_source_n2_a1_v0 shuttle_v2
+Transfer:   shuttle_source_n2_a1_v0 	-->	 shuttle_v2 	AUC = 0.8206800000000001
+shuttle_source_n12_a12_v1 shuttle_v2
+Transfer:   shuttle_source_n12_a12_v1 	-->	 shuttle_v2 	AUC = 0.8915
+shuttle_source_n12_a12_v0 shuttle_v2
+Transfer:   shuttle_source_n12_a12_v0 	-->	 shuttle_v2 	AUC = 0.897
+shuttle_source_n2_a1_v1 shuttle_v2
+Transfer:   shuttle_source_n2_a1_v1 	-->	 shuttle_v2 	AUC = 0.8336600000000001
+shuttle
+shuttle_source_n1_a1_v4 shuttle_v0
+Transfer:   shuttle_source_n1_a1_v4 	-->	 shuttle_v0 	AUC = 0.96112
+shuttle_source_n1_a1_v2 shuttle_v0
+Transfer:   shuttle_source_n1_a1_v2 	-->	 shuttle_v0 	AUC = 0.969
+shuttle_source_n1_a1_v3 shuttle_v0
+Transfer:   shuttle_source_n1_a1_v3 	-->	 shuttle_v0 	AUC = 0.96338
+shuttle_source_n1_a1_v1 shuttle_v0
+Transfer:   shuttle_source_n1_a1_v1 	-->	 shuttle_v0 	AUC = 0.96506
+shuttle_source_n1_a1_v0 shuttle_v0
+Transfer:   shuttle_source_n1_a1_v0 	-->	 shuttle_v0 	AUC = 0.9707800000000001
+shuttle_source_n2_a2_v2 shuttle_v0
+Transfer:   shuttle_source_n2_a2_v2 	-->	 shuttle_v0 	AUC = 0.8654799999999999
+shuttle_source_n2_a2_v3 shuttle_v0
+Transfer:   shuttle_source_n2_a2_v3 	-->	 shuttle_v0 	AUC = 0.8654799999999999
+shuttle_source_n2_a2_v1 shuttle_v0
+Transfer:   shuttle_source_n2_a2_v1 	-->	 shuttle_v0 	AUC = 0.8654799999999999
+shuttle_source_n2_a2_v0 shuttle_v0
+Transfer:   shuttle_source_n2_a2_v0 	-->	 shuttle_v0 	AUC = 0.86556
+shuttle_source_n2_a2_v4 shuttle_v0
+Transfer:   shuttle_source_n2_a2_v4 	-->	 shuttle_v0 	AUC = 0.8654799999999999
+shuttle_source_n1_a2_v3 shuttle_v0
+Transfer:   shuttle_source_n1_a2_v3 	-->	 shuttle_v0 	AUC = 0.94916
+shuttle_source_n1_a2_v2 shuttle_v0
+Transfer:   shuttle_source_n1_a2_v2 	-->	 shuttle_v0 	AUC = 0.9653800000000001
+shuttle_source_n1_a2_v0 shuttle_v0
+Transfer:   shuttle_source_n1_a2_v0 	-->	 shuttle_v0 	AUC = 0.9607399999999999
+shuttle_source_n1_a2_v1 shuttle_v0
+Transfer:   shuttle_source_n1_a2_v1 	-->	 shuttle_v0 	AUC = 0.9579
+shuttle_source_n1_a2_v4 shuttle_v0
+Transfer:   shuttle_source_n1_a2_v4 	-->	 shuttle_v0 	AUC = 0.96364
+shuttle_source_n12_a12_v4 shuttle_v0
+Transfer:   shuttle_source_n12_a12_v4 	-->	 shuttle_v0 	AUC = 0.9482400000000001
+shuttle_source_n2_a1_v4 shuttle_v0
+Transfer:   shuttle_source_n2_a1_v4 	-->	 shuttle_v0 	AUC = 0.87762
+shuttle_source_n2_a1_v3 shuttle_v0
+Transfer:   shuttle_source_n2_a1_v3 	-->	 shuttle_v0 	AUC = 0.9001999999999999
+shuttle_source_n12_a12_v2 shuttle_v0
+Transfer:   shuttle_source_n12_a12_v2 	-->	 shuttle_v0 	AUC = 0.93832
+shuttle_source_n12_a12_v3 shuttle_v0
+Transfer:   shuttle_source_n12_a12_v3 	-->	 shuttle_v0 	AUC = 0.93258
+shuttle_source_n2_a1_v2 shuttle_v0
+Transfer:   shuttle_source_n2_a1_v2 	-->	 shuttle_v0 	AUC = 0.89118
+shuttle_source_n2_a1_v0 shuttle_v0
+Transfer:   shuttle_source_n2_a1_v0 	-->	 shuttle_v0 	AUC = 0.8910600000000001
+shuttle_source_n12_a12_v1 shuttle_v0
+Transfer:   shuttle_source_n12_a12_v1 	-->	 shuttle_v0 	AUC = 0.94396
+shuttle_source_n12_a12_v0 shuttle_v0
+Transfer:   shuttle_source_n12_a12_v0 	-->	 shuttle_v0 	AUC = 0.9418
+shuttle_source_n2_a1_v1 shuttle_v0
+Transfer:   shuttle_source_n2_a1_v1 	-->	 shuttle_v0 	AUC = 0.8772599999999999
+shuttle
+shuttle_source_n1_a1_v4 shuttle_v1
+Transfer:   shuttle_source_n1_a1_v4 	-->	 shuttle_v1 	AUC = 0.9351400000000001
+shuttle_source_n1_a1_v2 shuttle_v1
+Transfer:   shuttle_source_n1_a1_v2 	-->	 shuttle_v1 	AUC = 0.94648
+shuttle_source_n1_a1_v3 shuttle_v1
+Transfer:   shuttle_source_n1_a1_v3 	-->	 shuttle_v1 	AUC = 0.9435200000000001
+shuttle_source_n1_a1_v1 shuttle_v1
+Transfer:   shuttle_source_n1_a1_v1 	-->	 shuttle_v1 	AUC = 0.93666
+shuttle_source_n1_a1_v0 shuttle_v1
+Transfer:   shuttle_source_n1_a1_v0 	-->	 shuttle_v1 	AUC = 0.93316
+shuttle_source_n2_a2_v2 shuttle_v1
+Transfer:   shuttle_source_n2_a2_v2 	-->	 shuttle_v1 	AUC = 0.7848599999999999
+shuttle_source_n2_a2_v3 shuttle_v1
+Transfer:   shuttle_source_n2_a2_v3 	-->	 shuttle_v1 	AUC = 0.7848599999999999
+shuttle_source_n2_a2_v1 shuttle_v1
+Transfer:   shuttle_source_n2_a2_v1 	-->	 shuttle_v1 	AUC = 0.7848599999999999
+shuttle_source_n2_a2_v0 shuttle_v1
+Transfer:   shuttle_source_n2_a2_v0 	-->	 shuttle_v1 	AUC = 0.7848599999999999
+shuttle_source_n2_a2_v4 shuttle_v1
+Transfer:   shuttle_source_n2_a2_v4 	-->	 shuttle_v1 	AUC = 0.78498
+shuttle_source_n1_a2_v3 shuttle_v1
+Transfer:   shuttle_source_n1_a2_v3 	-->	 shuttle_v1 	AUC = 0.9134200000000001
+shuttle_source_n1_a2_v2 shuttle_v1
+Transfer:   shuttle_source_n1_a2_v2 	-->	 shuttle_v1 	AUC = 0.9191200000000002
+shuttle_source_n1_a2_v0 shuttle_v1
+Transfer:   shuttle_source_n1_a2_v0 	-->	 shuttle_v1 	AUC = 0.9148000000000001
+shuttle_source_n1_a2_v1 shuttle_v1
+Transfer:   shuttle_source_n1_a2_v1 	-->	 shuttle_v1 	AUC = 0.91608
+shuttle_source_n1_a2_v4 shuttle_v1
+Transfer:   shuttle_source_n1_a2_v4 	-->	 shuttle_v1 	AUC = 0.92146
+shuttle_source_n12_a12_v4 shuttle_v1
+Transfer:   shuttle_source_n12_a12_v4 	-->	 shuttle_v1 	AUC = 0.92622
+shuttle_source_n2_a1_v4 shuttle_v1
+Transfer:   shuttle_source_n2_a1_v4 	-->	 shuttle_v1 	AUC = 0.8251
+shuttle_source_n2_a1_v3 shuttle_v1
+Transfer:   shuttle_source_n2_a1_v3 	-->	 shuttle_v1 	AUC = 0.8306399999999999
+shuttle_source_n12_a12_v2 shuttle_v1
+Transfer:   shuttle_source_n12_a12_v2 	-->	 shuttle_v1 	AUC = 0.9007399999999999
+shuttle_source_n12_a12_v3 shuttle_v1
+Transfer:   shuttle_source_n12_a12_v3 	-->	 shuttle_v1 	AUC = 0.89302
+shuttle_source_n2_a1_v2 shuttle_v1
+Transfer:   shuttle_source_n2_a1_v2 	-->	 shuttle_v1 	AUC = 0.8271600000000001
+shuttle_source_n2_a1_v0 shuttle_v1
+Transfer:   shuttle_source_n2_a1_v0 	-->	 shuttle_v1 	AUC = 0.82324
+shuttle_source_n12_a12_v1 shuttle_v1
+Transfer:   shuttle_source_n12_a12_v1 	-->	 shuttle_v1 	AUC = 0.9025799999999999
+shuttle_source_n12_a12_v0 shuttle_v1
+Transfer:   shuttle_source_n12_a12_v0 	-->	 shuttle_v1 	AUC = 0.9096
+shuttle_source_n2_a1_v1 shuttle_v1
+Transfer:   shuttle_source_n2_a1_v1 	-->	 shuttle_v1 	AUC = 0.82838
+shuttle
+shuttle_source_n1_a1_v4 shuttle_v5
+Transfer:   shuttle_source_n1_a1_v4 	-->	 shuttle_v5 	AUC = 0.89542
+shuttle_source_n1_a1_v2 shuttle_v5
+Transfer:   shuttle_source_n1_a1_v2 	-->	 shuttle_v5 	AUC = 0.9329200000000001
+shuttle_source_n1_a1_v3 shuttle_v5
+Transfer:   shuttle_source_n1_a1_v3 	-->	 shuttle_v5 	AUC = 0.923
+shuttle_source_n1_a1_v1 shuttle_v5
+Transfer:   shuttle_source_n1_a1_v1 	-->	 shuttle_v5 	AUC = 0.9230800000000001
+shuttle_source_n1_a1_v0 shuttle_v5
+Transfer:   shuttle_source_n1_a1_v0 	-->	 shuttle_v5 	AUC = 0.9174
+shuttle_source_n2_a2_v2 shuttle_v5
+Transfer:   shuttle_source_n2_a2_v2 	-->	 shuttle_v5 	AUC = 0.7552399999999999
+shuttle_source_n2_a2_v3 shuttle_v5
+Transfer:   shuttle_source_n2_a2_v3 	-->	 shuttle_v5 	AUC = 0.7552399999999999
+shuttle_source_n2_a2_v1 shuttle_v5
+Transfer:   shuttle_source_n2_a2_v1 	-->	 shuttle_v5 	AUC = 0.7552399999999999
+shuttle_source_n2_a2_v0 shuttle_v5
+Transfer:   shuttle_source_n2_a2_v0 	-->	 shuttle_v5 	AUC = 0.7552399999999999
+shuttle_source_n2_a2_v4 shuttle_v5
+Transfer:   shuttle_source_n2_a2_v4 	-->	 shuttle_v5 	AUC = 0.7552399999999999
+shuttle_source_n1_a2_v3 shuttle_v5
+Transfer:   shuttle_source_n1_a2_v3 	-->	 shuttle_v5 	AUC = 0.89414
+shuttle_source_n1_a2_v2 shuttle_v5
+Transfer:   shuttle_source_n1_a2_v2 	-->	 shuttle_v5 	AUC = 0.9013799999999998
+shuttle_source_n1_a2_v0 shuttle_v5
+Transfer:   shuttle_source_n1_a2_v0 	-->	 shuttle_v5 	AUC = 0.89498
+shuttle_source_n1_a2_v1 shuttle_v5
+Transfer:   shuttle_source_n1_a2_v1 	-->	 shuttle_v5 	AUC = 0.89758
+shuttle_source_n1_a2_v4 shuttle_v5
+Transfer:   shuttle_source_n1_a2_v4 	-->	 shuttle_v5 	AUC = 0.9009
+shuttle_source_n12_a12_v4 shuttle_v5
+Transfer:   shuttle_source_n12_a12_v4 	-->	 shuttle_v5 	AUC = 0.8945799999999999
+shuttle_source_n2_a1_v4 shuttle_v5
+Transfer:   shuttle_source_n2_a1_v4 	-->	 shuttle_v5 	AUC = 0.76782
+shuttle_source_n2_a1_v3 shuttle_v5
+Transfer:   shuttle_source_n2_a1_v3 	-->	 shuttle_v5 	AUC = 0.81834
+shuttle_source_n12_a12_v2 shuttle_v5
+Transfer:   shuttle_source_n12_a12_v2 	-->	 shuttle_v5 	AUC = 0.847
+shuttle_source_n12_a12_v3 shuttle_v5
+Transfer:   shuttle_source_n12_a12_v3 	-->	 shuttle_v5 	AUC = 0.84972
+shuttle_source_n2_a1_v2 shuttle_v5
+Transfer:   shuttle_source_n2_a1_v2 	-->	 shuttle_v5 	AUC = 0.8022199999999999
+shuttle_source_n2_a1_v0 shuttle_v5
+Transfer:   shuttle_source_n2_a1_v0 	-->	 shuttle_v5 	AUC = 0.79982
+shuttle_source_n12_a12_v1 shuttle_v5
+Transfer:   shuttle_source_n12_a12_v1 	-->	 shuttle_v5 	AUC = 0.8851
+shuttle_source_n12_a12_v0 shuttle_v5
+Transfer:   shuttle_source_n12_a12_v0 	-->	 shuttle_v5 	AUC = 0.8593000000000001
+shuttle_source_n2_a1_v1 shuttle_v5
+Transfer:   shuttle_source_n2_a1_v1 	-->	 shuttle_v5 	AUC = 0.7706
+shuttle
+shuttle_source_n1_a1_v4 shuttle_v4
+Transfer:   shuttle_source_n1_a1_v4 	-->	 shuttle_v4 	AUC = 0.9507800000000001
+shuttle_source_n1_a1_v2 shuttle_v4
+Transfer:   shuttle_source_n1_a1_v2 	-->	 shuttle_v4 	AUC = 0.9543600000000001
+shuttle_source_n1_a1_v3 shuttle_v4
+Transfer:   shuttle_source_n1_a1_v3 	-->	 shuttle_v4 	AUC = 0.95292
+shuttle_source_n1_a1_v1 shuttle_v4
+Transfer:   shuttle_source_n1_a1_v1 	-->	 shuttle_v4 	AUC = 0.94918
+shuttle_source_n1_a1_v0 shuttle_v4
+Transfer:   shuttle_source_n1_a1_v0 	-->	 shuttle_v4 	AUC = 0.9564600000000001
+shuttle_source_n2_a2_v2 shuttle_v4
+Transfer:   shuttle_source_n2_a2_v2 	-->	 shuttle_v4 	AUC = 0.83624
+shuttle_source_n2_a2_v3 shuttle_v4
+Transfer:   shuttle_source_n2_a2_v3 	-->	 shuttle_v4 	AUC = 0.83624
+shuttle_source_n2_a2_v1 shuttle_v4
+Transfer:   shuttle_source_n2_a2_v1 	-->	 shuttle_v4 	AUC = 0.83624
+shuttle_source_n2_a2_v0 shuttle_v4
+Transfer:   shuttle_source_n2_a2_v0 	-->	 shuttle_v4 	AUC = 0.83624
+shuttle_source_n2_a2_v4 shuttle_v4
+Transfer:   shuttle_source_n2_a2_v4 	-->	 shuttle_v4 	AUC = 0.83624
+shuttle_source_n1_a2_v3 shuttle_v4
+Transfer:   shuttle_source_n1_a2_v3 	-->	 shuttle_v4 	AUC = 0.9426000000000001
+shuttle_source_n1_a2_v2 shuttle_v4
+Transfer:   shuttle_source_n1_a2_v2 	-->	 shuttle_v4 	AUC = 0.9507800000000001
+shuttle_source_n1_a2_v0 shuttle_v4
+Transfer:   shuttle_source_n1_a2_v0 	-->	 shuttle_v4 	AUC = 0.9531
+shuttle_source_n1_a2_v1 shuttle_v4
+Transfer:   shuttle_source_n1_a2_v1 	-->	 shuttle_v4 	AUC = 0.94848
+shuttle_source_n1_a2_v4 shuttle_v4
+Transfer:   shuttle_source_n1_a2_v4 	-->	 shuttle_v4 	AUC = 0.9526600000000001
+shuttle_source_n12_a12_v4 shuttle_v4
+Transfer:   shuttle_source_n12_a12_v4 	-->	 shuttle_v4 	AUC = 0.94208
+shuttle_source_n2_a1_v4 shuttle_v4
+Transfer:   shuttle_source_n2_a1_v4 	-->	 shuttle_v4 	AUC = 0.84446
+shuttle_source_n2_a1_v3 shuttle_v4
+Transfer:   shuttle_source_n2_a1_v3 	-->	 shuttle_v4 	AUC = 0.8511
+shuttle_source_n12_a12_v2 shuttle_v4
+Transfer:   shuttle_source_n12_a12_v2 	-->	 shuttle_v4 	AUC = 0.92562
+shuttle_source_n12_a12_v3 shuttle_v4
+Transfer:   shuttle_source_n12_a12_v3 	-->	 shuttle_v4 	AUC = 0.9133600000000001
+shuttle_source_n2_a1_v2 shuttle_v4
+Transfer:   shuttle_source_n2_a1_v2 	-->	 shuttle_v4 	AUC = 0.84396
+shuttle_source_n2_a1_v0 shuttle_v4
+Transfer:   shuttle_source_n2_a1_v0 	-->	 shuttle_v4 	AUC = 0.8521799999999999
+shuttle_source_n12_a12_v1 shuttle_v4
+Transfer:   shuttle_source_n12_a12_v1 	-->	 shuttle_v4 	AUC = 0.92614
+shuttle_source_n12_a12_v0 shuttle_v4
+Transfer:   shuttle_source_n12_a12_v0 	-->	 shuttle_v4 	AUC = 0.92508
+shuttle_source_n2_a1_v1 shuttle_v4
+Transfer:   shuttle_source_n2_a1_v1 	-->	 shuttle_v4 	AUC = 0.8499800000000001
+shuttle
+shuttle_source_n1_a1_v4 shuttle_v6
+Transfer:   shuttle_source_n1_a1_v4 	-->	 shuttle_v6 	AUC = 0.8785999999999999
+shuttle_source_n1_a1_v2 shuttle_v6
+Transfer:   shuttle_source_n1_a1_v2 	-->	 shuttle_v6 	AUC = 0.90344
+shuttle_source_n1_a1_v3 shuttle_v6
+Transfer:   shuttle_source_n1_a1_v3 	-->	 shuttle_v6 	AUC = 0.89666
+shuttle_source_n1_a1_v1 shuttle_v6
+Transfer:   shuttle_source_n1_a1_v1 	-->	 shuttle_v6 	AUC = 0.8996599999999999
+shuttle_source_n1_a1_v0 shuttle_v6
+Transfer:   shuttle_source_n1_a1_v0 	-->	 shuttle_v6 	AUC = 0.9077999999999999
+shuttle_source_n2_a2_v2 shuttle_v6
+Transfer:   shuttle_source_n2_a2_v2 	-->	 shuttle_v6 	AUC = 0.72018
+shuttle_source_n2_a2_v3 shuttle_v6
+Transfer:   shuttle_source_n2_a2_v3 	-->	 shuttle_v6 	AUC = 0.72018
+shuttle_source_n2_a2_v1 shuttle_v6
+Transfer:   shuttle_source_n2_a2_v1 	-->	 shuttle_v6 	AUC = 0.72018
+shuttle_source_n2_a2_v0 shuttle_v6
+Transfer:   shuttle_source_n2_a2_v0 	-->	 shuttle_v6 	AUC = 0.72018
+shuttle_source_n2_a2_v4 shuttle_v6
+Transfer:   shuttle_source_n2_a2_v4 	-->	 shuttle_v6 	AUC = 0.72018
+shuttle_source_n1_a2_v3 shuttle_v6
+Transfer:   shuttle_source_n1_a2_v3 	-->	 shuttle_v6 	AUC = 0.86902
+shuttle_source_n1_a2_v2 shuttle_v6
+Transfer:   shuttle_source_n1_a2_v2 	-->	 shuttle_v6 	AUC = 0.87262
+shuttle_source_n1_a2_v0 shuttle_v6
+Transfer:   shuttle_source_n1_a2_v0 	-->	 shuttle_v6 	AUC = 0.87222
+shuttle_source_n1_a2_v1 shuttle_v6
+Transfer:   shuttle_source_n1_a2_v1 	-->	 shuttle_v6 	AUC = 0.8731
+shuttle_source_n1_a2_v4 shuttle_v6
+Transfer:   shuttle_source_n1_a2_v4 	-->	 shuttle_v6 	AUC = 0.87422
+shuttle_source_n12_a12_v4 shuttle_v6
+Transfer:   shuttle_source_n12_a12_v4 	-->	 shuttle_v6 	AUC = 0.87066
+shuttle_source_n2_a1_v4 shuttle_v6
+Transfer:   shuttle_source_n2_a1_v4 	-->	 shuttle_v6 	AUC = 0.7486400000000001
+shuttle_source_n2_a1_v3 shuttle_v6
+Transfer:   shuttle_source_n2_a1_v3 	-->	 shuttle_v6 	AUC = 0.81086
+shuttle_source_n12_a12_v2 shuttle_v6
+Transfer:   shuttle_source_n12_a12_v2 	-->	 shuttle_v6 	AUC = 0.83032
+shuttle_source_n12_a12_v3 shuttle_v6
+Transfer:   shuttle_source_n12_a12_v3 	-->	 shuttle_v6 	AUC = 0.8346800000000001
+shuttle_source_n2_a1_v2 shuttle_v6
+Transfer:   shuttle_source_n2_a1_v2 	-->	 shuttle_v6 	AUC = 0.7834599999999999
+shuttle_source_n2_a1_v0 shuttle_v6
+Transfer:   shuttle_source_n2_a1_v0 	-->	 shuttle_v6 	AUC = 0.7994399999999999
+shuttle_source_n12_a12_v1 shuttle_v6
+Transfer:   shuttle_source_n12_a12_v1 	-->	 shuttle_v6 	AUC = 0.86288
+shuttle_source_n12_a12_v0 shuttle_v6
+Transfer:   shuttle_source_n12_a12_v0 	-->	 shuttle_v6 	AUC = 0.8378399999999999
+shuttle_source_n2_a1_v1 shuttle_v6
+Transfer:   shuttle_source_n2_a1_v1 	-->	 shuttle_v6 	AUC = 0.7466999999999999
+shuttle
+shuttle_source_n1_a1_v4 shuttle_v7
+Transfer:   shuttle_source_n1_a1_v4 	-->	 shuttle_v7 	AUC = 0.9328400000000001
+shuttle_source_n1_a1_v2 shuttle_v7
+Transfer:   shuttle_source_n1_a1_v2 	-->	 shuttle_v7 	AUC = 0.954
+shuttle_source_n1_a1_v3 shuttle_v7
+Transfer:   shuttle_source_n1_a1_v3 	-->	 shuttle_v7 	AUC = 0.9402400000000001
+shuttle_source_n1_a1_v1 shuttle_v7
+Transfer:   shuttle_source_n1_a1_v1 	-->	 shuttle_v7 	AUC = 0.9476600000000001
+shuttle_source_n1_a1_v0 shuttle_v7
+Transfer:   shuttle_source_n1_a1_v0 	-->	 shuttle_v7 	AUC = 0.9384800000000001
+shuttle_source_n2_a2_v2 shuttle_v7
+Transfer:   shuttle_source_n2_a2_v2 	-->	 shuttle_v7 	AUC = 0.80172
+shuttle_source_n2_a2_v3 shuttle_v7
+Transfer:   shuttle_source_n2_a2_v3 	-->	 shuttle_v7 	AUC = 0.80172
+shuttle_source_n2_a2_v1 shuttle_v7
+Transfer:   shuttle_source_n2_a2_v1 	-->	 shuttle_v7 	AUC = 0.80172
+shuttle_source_n2_a2_v0 shuttle_v7
+Transfer:   shuttle_source_n2_a2_v0 	-->	 shuttle_v7 	AUC = 0.80172
+shuttle_source_n2_a2_v4 shuttle_v7
+Transfer:   shuttle_source_n2_a2_v4 	-->	 shuttle_v7 	AUC = 0.80172
+shuttle_source_n1_a2_v3 shuttle_v7
+Transfer:   shuttle_source_n1_a2_v3 	-->	 shuttle_v7 	AUC = 0.91768
+shuttle_source_n1_a2_v2 shuttle_v7
+Transfer:   shuttle_source_n1_a2_v2 	-->	 shuttle_v7 	AUC = 0.92952
+shuttle_source_n1_a2_v0 shuttle_v7
+Transfer:   shuttle_source_n1_a2_v0 	-->	 shuttle_v7 	AUC = 0.9267399999999999
+shuttle_source_n1_a2_v1 shuttle_v7
+Transfer:   shuttle_source_n1_a2_v1 	-->	 shuttle_v7 	AUC = 0.91984
+shuttle_source_n1_a2_v4 shuttle_v7
+Transfer:   shuttle_source_n1_a2_v4 	-->	 shuttle_v7 	AUC = 0.92736
+shuttle_source_n12_a12_v4 shuttle_v7
+Transfer:   shuttle_source_n12_a12_v4 	-->	 shuttle_v7 	AUC = 0.9168
+shuttle_source_n2_a1_v4 shuttle_v7
+Transfer:   shuttle_source_n2_a1_v4 	-->	 shuttle_v7 	AUC = 0.8375600000000001
+shuttle_source_n2_a1_v3 shuttle_v7
+Transfer:   shuttle_source_n2_a1_v3 	-->	 shuttle_v7 	AUC = 0.8633199999999999
+shuttle_source_n12_a12_v2 shuttle_v7
+Transfer:   shuttle_source_n12_a12_v2 	-->	 shuttle_v7 	AUC = 0.9057999999999999
+shuttle_source_n12_a12_v3 shuttle_v7
+Transfer:   shuttle_source_n12_a12_v3 	-->	 shuttle_v7 	AUC = 0.8965799999999999
+shuttle_source_n2_a1_v2 shuttle_v7
+Transfer:   shuttle_source_n2_a1_v2 	-->	 shuttle_v7 	AUC = 0.8610599999999999
+shuttle_source_n2_a1_v0 shuttle_v7
+Transfer:   shuttle_source_n2_a1_v0 	-->	 shuttle_v7 	AUC = 0.8621800000000001
+shuttle_source_n12_a12_v1 shuttle_v7
+Transfer:   shuttle_source_n12_a12_v1 	-->	 shuttle_v7 	AUC = 0.9212400000000001
+shuttle_source_n12_a12_v0 shuttle_v7
+Transfer:   shuttle_source_n12_a12_v0 	-->	 shuttle_v7 	AUC = 0.91466
+shuttle_source_n2_a1_v1 shuttle_v7
+Transfer:   shuttle_source_n2_a1_v1 	-->	 shuttle_v7 	AUC = 0.8330799999999999
+
+
+AUC results on SHUTTLE:
+-----------------------
+  Difficulty level 1: 	0.9331767999999999
+  Difficulty level 5: 	0.7866404
+  Difficulty level 2: 	0.917112
+  Difficulty level 3: 	0.8959963999999999
+  Difficulty level 4: 	0.8246484000000001
+989.294182062149
+
+Done!
+
